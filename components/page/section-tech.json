@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_section_teches",
+  "info": {
+    "name": "sectionTech",
+    "icon": "dice-d20"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "techIcons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.icons",
+      "required": true,
+      "min": 4
+    }
+  }
+}

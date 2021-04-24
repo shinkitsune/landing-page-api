@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_page_pricingboxes",
+  "info": {
+    "name": "pricingbox",
+    "icon": "dollar-sign"
+  },
+  "options": {},
+  "attributes": {
+    "pricingbox": {
+      "type": "integer",
+      "required": true
+    },
+    "numberInstallments": {
+      "type": "integer",
+      "required": true
+    },
+    "priceInstallment": {
+      "type": "integer",
+      "required": true
+    },
+    "benefits": {
+      "type": "richtext"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button",
+      "required": true
+    }
+  }
+}
